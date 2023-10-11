@@ -1,7 +1,7 @@
 import axios from 'axios'
 import { getToken } from './utils'
 
-const API_URL='http://localhost:3001'
+const API_URL='https://chats-eta.vercel.app'
 
 export const getAuthorized=  () =>{
     return getToken()
